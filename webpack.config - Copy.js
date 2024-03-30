@@ -38,7 +38,7 @@ module.exports = {
             })
         ],
     },
-    entry: ['./index.js'],
+    entry: ['babel-polyfill', './index.js'],
     output: {
         path: __dirname,
         filename: 'chrome-remote-interface.js',
